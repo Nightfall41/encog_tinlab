@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9d9412a-1958-46f3-a99b-43dfe65d4787" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Torcs_CI-master/DefaultDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Torcs_CI-master/DefaultDriverAlgorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Torcs_CI-master/DefaultDriverGenome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Torcs_CI-master/DefaultRace.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Torcs_CI-master/NeuralNetwork.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DefaultDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DefaultDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DefaultDriverAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DefaultDriverAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeuralNetwork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torcs.properties" beforeDir="false" afterPath="$PROJECT_DIR$/torcs.properties" afterDir="false" />
-    </list>
+    <list default="true" id="d9d9412a-1958-46f3-a99b-43dfe65d4787" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DefaultDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="70" column="47" lean-forward="true" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
+            <state relative-caret-position="612">
+              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,22 +92,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Torcs_CI-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="Torcs_CI-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Torcs_CI-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Torcs_CI-master" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Torcs_CI-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Torcs_CI-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Torcs_CI-master" type="b2602c69:ProjectViewProjectNode" />
@@ -131,7 +110,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,17 +171,17 @@
       <workItem from="1561726428899" duration="856000" />
       <workItem from="1561743295993" duration="4835000" />
       <workItem from="1561923873907" duration="322000" />
+      <workItem from="1561933748056" duration="250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21767000" />
+    <option name="totallyTimeSpent" value="22017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="38" width="2736" height="1786" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22826909" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23204838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -212,7 +190,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956812" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32911393" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -274,10 +252,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/train_data/f-speedway.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/memory/mydriver.mem" />
     <entry file="file://$PROJECT_DIR$/nn/encog_Neural_2019-40-23 08:40:56">
@@ -383,10 +361,10 @@
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/Corners.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/corner.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
@@ -418,8 +396,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DefaultDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="70" column="47" lean-forward="true" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
+        <state relative-caret-position="612">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
