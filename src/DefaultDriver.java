@@ -8,6 +8,7 @@ import cicontest.torcs.genome.IGenome;
 import scr.Action;
 import scr.SensorModel;
 
+
 public class DefaultDriver extends AbstractDriver {
 
     private NeuralNetwork neuralNetwork;
@@ -76,41 +77,28 @@ public class DefaultDriver extends AbstractDriver {
             action = new Action();
         }
         action.steering = DriversUtils.alignToTrackAxis(sensors, 0.5);
-
         action.accelerate=getAcceleration(sensors);
         action.steering=getSteering(sensors);
-        action.brake=neuralNetwork.getOutput(sensors,"brake");
 
-        double [] trackedge=sensors.getTrackEdgeSensors();
+        if(sensors.getSpeed()> 40){
+            action.brake=neuralNetwork.getOutput(sensors,"brake");
 
-    /*    for (int i=0;i<trackedge.length;i++){
-            System.out.println(trackedge[i]+" sensor "+ i);
-        }
-*/
-
-
-/*        if (sensors.getSpeed() > 60.0D) {
-            action.accelerate = getAcceleration(sensors);
-            action.brake = 0.0D;
         }
 
-       if (sensors.getSpeed() > 70.0D) {
-            action.accelerate = 0.0D;
-            action.brake = -1.0D;
+        double [] tracksensors = sensors.getTrackEdgeSensors();
+        for (int i=0;i<tracksensors.length;i++){
+            if(tracksensors[i]==-1){
+                System.out.println("I FUCKED UPP");
+                action.steering=DriversUtils.moveTowardsTrackPosition(sensors,0.5,-0.5);
+            }
         }
 
-        if (sensors.getSpeed() < 350.0D) {
-            action.accelerate = (350.0D - sensors.getSpeed()) / 350.0D;
-            action.brake = 0.0D;
-        }
 
-        if (sensors.getSpeed() < 30.0D) {
-            action.accelerate = 1.0D;
-            action.brake = 0.0D;
-        }*/
+        System.out.println("Time: "+sensors.getTime());
         System.out.println("--------------" + getDriverName() + "--------------");
         System.out.println("Steering: " + action.steering);
         System.out.println("Acceleration: " + action.accelerate);
+        System.out.println("trackPos: "+sensors.getTrackPosition());
         System.out.println("Brake: " + action.brake);
         System.out.println("-----------------------------------------------");
         return action;

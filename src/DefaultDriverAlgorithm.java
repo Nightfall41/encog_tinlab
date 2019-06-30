@@ -43,6 +43,7 @@ public class DefaultDriverAlgorithm extends AbstractAlgorithm {
 
         NeuralNetwork net = new NeuralNetwork(true);
         net.train();
+        //net.train();
         //Set path to torcs.properties
         TorcsConfiguration.getInstance().initialize(new File("torcs.properties"));
         //*
