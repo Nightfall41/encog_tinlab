@@ -42,8 +42,6 @@ public class DefaultDriverAlgorithm extends AbstractAlgorithm {
 
 
         NeuralNetwork net = new NeuralNetwork(true);
-        net.train();
-        //net.train();
         //Set path to torcs.properties
         TorcsConfiguration.getInstance().initialize(new File("torcs.properties"));
         //*
@@ -55,7 +53,7 @@ public class DefaultDriverAlgorithm extends AbstractAlgorithm {
 		 * Start with -human to race against the best found
 		 *
 		 */
-       /* DefaultDriverAlgorithm algorithm = new DefaultDriverAlgorithm();
+        DefaultDriverAlgorithm algorithm = new DefaultDriverAlgorithm();
         DriversUtils.registerMemory(algorithm.getDriverClass());
         if (args.length > 0 && args[0].equals("-show")) {
             new DefaultRace().showBest();
@@ -71,7 +69,7 @@ public class DefaultDriverAlgorithm extends AbstractAlgorithm {
             }
         } else {
             algorithm.run();
-        }*/
+        }
     }
 
 }

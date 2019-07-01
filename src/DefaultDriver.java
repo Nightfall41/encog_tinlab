@@ -15,7 +15,7 @@ public class DefaultDriver extends AbstractDriver {
 
     public DefaultDriver() {
         initialize();
-        neuralNetwork = new NeuralNetwork(true);
+        neuralNetwork = new NeuralNetwork(false);
     }
 
     private void initialize() {
@@ -47,7 +47,6 @@ public class DefaultDriver extends AbstractDriver {
         return output;
     }
 
-
     @Override
     public String getDriverName() {
         return "Baudet Racing Team";
@@ -76,31 +75,38 @@ public class DefaultDriver extends AbstractDriver {
         if (action == null) {
             action = new Action();
         }
-        action.steering = DriversUtils.alignToTrackAxis(sensors, 0.5);
+        action.steering=DriversUtils.alignToTrackAxis(sensors,0.5);
         action.accelerate=getAcceleration(sensors);
         action.steering=getSteering(sensors);
+        action.brake=neuralNetwork.getOutput(sensors,"brake");
 
-        if(sensors.getSpeed()> 40){
-            action.brake=neuralNetwork.getOutput(sensors,"brake");
 
+        if(sensors.getDistanceRaced()>20){
+            if(sensors.getSpeed()<5){
+                System.out.println("help");
+                action.accelerate=-1;
+
+            }
         }
+        System.out.println("time test "+sensors.getTime()%5);
+        if(sensors.getTime()%5>=0 && sensors.getTime()%5<=0.5){
+            double [] carsensors=sensors.getFocusSensors();
 
-        double [] tracksensors = sensors.getTrackEdgeSensors();
-        for (int i=0;i<tracksensors.length;i++){
-            if(tracksensors[i]==-1){
-                System.out.println("I FUCKED UPP");
-                action.steering=DriversUtils.moveTowardsTrackPosition(sensors,0.5,-0.5);
+            for (int i=0;i<carsensors.length;i++){
+                System.out.println("sensor"+i+": "+carsensors[i]);
             }
         }
 
 
-        System.out.println("Time: "+sensors.getTime());
-        System.out.println("--------------" + getDriverName() + "--------------");
-        System.out.println("Steering: " + action.steering);
-        System.out.println("Acceleration: " + action.accelerate);
-        System.out.println("trackPos: "+sensors.getTrackPosition());
-        System.out.println("Brake: " + action.brake);
-        System.out.println("-----------------------------------------------");
+            System.out.println("Time: "+sensors.getTime());
+            System.out.println("--------------" + getDriverName() + "--------------");
+            System.out.println("Steering: " + action.steering);
+            System.out.println("Acceleration: " + action.accelerate);
+            System.out.println("trackPos: "+sensors.getTrackPosition());
+            System.out.println("Brake: " + action.brake);
+            System.out.println("Angle: "+        sensors.getDistanceRaced());
+            System.out.println("-----------------------------------------------");
+
         return action;
     }
 }
