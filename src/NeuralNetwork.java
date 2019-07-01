@@ -69,7 +69,7 @@ public class NeuralNetwork implements Serializable {
 
     public ResilientPropagation dataSet() { //pakt het csv bestand leest deze in en geeft een trainingsmodel terug
 
-        final MLDataSet training = TrainingSetUtil.loadCSVTOMemory(CSVFormat.DECIMAL_POINT, "resources/Alpine_Track_1.csv", true, 22, 3);
+        final MLDataSet training = TrainingSetUtil.loadCSVTOMemory(CSVFormat.DECIMAL_POINT, "resources/all.csv", false, 22, 3);
         ResilientPropagation learner = new ResilientPropagation(loadFromFileNetwork, training);
         return learner;
     }
