@@ -30,8 +30,7 @@ public class NeuralNetwork implements Serializable {
     private int hidden1 = 66;
     private int hidden2 = 48;
     private int output = 3;
-    SensorModel sensors;
-    double tolerance = 0.0001;
+    double tolerance = 0.001;
     private BasicNetwork loadFromFileNetwork;
     private BasicNetwork network;
 
@@ -69,7 +68,7 @@ public class NeuralNetwork implements Serializable {
 
     public ResilientPropagation dataSet() { //pakt het csv bestand leest deze in en geeft een trainingsmodel terug
 
-        final MLDataSet training = TrainingSetUtil.loadCSVTOMemory(CSVFormat.DECIMAL_POINT, "resources/all.csv", false, 22, 3);
+        final MLDataSet training = TrainingSetUtil.loadCSVTOMemory(CSVFormat.DECIMAL_POINT, "resources/trackmulti.csv", true, 22, 3);
         ResilientPropagation learner = new ResilientPropagation(loadFromFileNetwork, training);
         return learner;
     }
@@ -90,9 +89,9 @@ public class NeuralNetwork implements Serializable {
             System.out.println("Error: " + learner.getError());
             System.out.println("Epoch: " + learner.getIteration());
 
-            if (learner.getIteration() % 500 == 0) {
+            if (learner.getIteration() % 1000 == 0) {
                 TrainingContinuation saved_network = learner.pause();
-                saveObject(new File(filename + giveDate()), loadFromFileNetwork);
+                saveObject(new File("InsallahEncog"), loadFromFileNetwork);
                 System.out.println("saved network");
                 learner.resume(saved_network);
             }
@@ -109,7 +108,7 @@ public class NeuralNetwork implements Serializable {
 
 
     public double getOutput(SensorModel sensors, String key) {
-
+        // copyritgh in charlois.
         double trackPosition = sensors.getTrackPosition();
         double trackAngle = sensors.getAngleToTrackAxis();
         double speed = sensors.getSpeed();
@@ -152,6 +151,22 @@ public class NeuralNetwork implements Serializable {
 
     }
 
+    public void ultraLayer(){
+        ResilientPropagation learner = dataSet();
+
+        while (true){
+            learner.iteration();
+            System.out.println("Error: " + learner.getError());
+            System.out.println("Epoch: " + learner.getIteration());
+
+            if (learner.getIteration() % 1000 == 0) {
+                TrainingContinuation saved_network = learner.pause();
+                saveObject(new File("encogXtreme "+learner.getIteration()), loadFromFileNetwork);
+                System.out.println("saved network");
+                learner.resume(saved_network);
+            }
+        }
+    }
 
 
     }

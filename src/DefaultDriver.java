@@ -12,7 +12,8 @@ import scr.SensorModel;
 public class DefaultDriver extends AbstractDriver {
 
     private NeuralNetwork neuralNetwork;
-
+    double tijdverleden=0.0;
+    double tijd;
     public DefaultDriver() {
         initialize();
         neuralNetwork = new NeuralNetwork(false);
@@ -75,27 +76,17 @@ public class DefaultDriver extends AbstractDriver {
         if (action == null) {
             action = new Action();
         }
-        action.steering=DriversUtils.alignToTrackAxis(sensors,0.5);
-        action.accelerate=getAcceleration(sensors);
-        action.steering=getSteering(sensors);
-        action.brake=neuralNetwork.getOutput(sensors,"brake");
+        //action.steering=DriversUtils.alignToTrackAxis(sensors,0.5);
+        action.accelerate=(getAcceleration(sensors));
+
+            action.steering=getSteering(sensors);
+
+            action.brake=neuralNetwork.getOutput(sensors,"brake");
 
 
-        if(sensors.getDistanceRaced()>20){
-            if(sensors.getSpeed()<5){
-                System.out.println("help");
-                action.accelerate=-1;
-
+            if(sensors.getSpeed()>=120.0){
+                action.accelerate=0.1;
             }
-        }
-        System.out.println("time test "+sensors.getTime()%5);
-        if(sensors.getTime()%5>=0 && sensors.getTime()%5<=0.5){
-            double [] carsensors=sensors.getFocusSensors();
-
-            for (int i=0;i<carsensors.length;i++){
-                System.out.println("sensor"+i+": "+carsensors[i]);
-            }
-        }
 
 
             System.out.println("Time: "+sensors.getTime());
@@ -104,7 +95,7 @@ public class DefaultDriver extends AbstractDriver {
             System.out.println("Acceleration: " + action.accelerate);
             System.out.println("trackPos: "+sensors.getTrackPosition());
             System.out.println("Brake: " + action.brake);
-            System.out.println("Angle: "+        sensors.getDistanceRaced());
+            System.out.println("Angle: "+ sensors.getAngleToTrackAxis());
             System.out.println("-----------------------------------------------");
 
         return action;

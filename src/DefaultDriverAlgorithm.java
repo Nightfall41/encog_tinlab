@@ -35,13 +35,13 @@ public class DefaultDriverAlgorithm extends AbstractAlgorithm {
         }
         // create a checkpoint this allows you to continue this run later
         DriversUtils.createCheckpoint(this);
-        //DriversUtils.clearCheckpoint();
+            DriversUtils.clearCheckpoint();
     }
 
     public static void main(String[] args) {
 
+        NeuralNetwork net = new NeuralNetwork(false);
 
-        NeuralNetwork net = new NeuralNetwork(true);
         //Set path to torcs.properties
         TorcsConfiguration.getInstance().initialize(new File("torcs.properties"));
         //*
