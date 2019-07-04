@@ -1,5 +1,6 @@
 import cicontest.algorithm.abstracts.AbstractDriver;
 import cicontest.algorithm.abstracts.DriversUtils;
+import cicontest.algorithm.abstracts.map.TrackMap;
 import cicontest.torcs.controller.extras.ABS;
 import cicontest.torcs.controller.extras.AutomatedClutch;
 import cicontest.torcs.controller.extras.AutomatedGearbox;
@@ -11,14 +12,14 @@ import scr.SensorModel;
 
 public class DefaultDriver extends AbstractDriver {
 
-    private NeuralNetwork neuralNetwork;
-    double tijdverleden=0.0;
-    double tijd;
-    public DefaultDriver() {
-        initialize();
-        neuralNetwork = new NeuralNetwork(false);
-    }
+    private NeuralNetwork neuralNetwork; // make pointer to neuralnetwork object
+    private DriversUtils tools = new DriversUtils(); // make pointer to Driverutils object
 
+    public DefaultDriver() { // contstuctor of the class
+        initialize();
+        neuralNetwork = new NeuralNetwork(false); // making pointer to neuralnetwork
+    }
+    // activate extras of the car for simplying the process
     private void initialize() {
         this.enableExtras(new AutomatedClutch());
         this.enableExtras(new AutomatedGearbox());
@@ -35,16 +36,15 @@ public class DefaultDriver extends AbstractDriver {
         }
     }
 
-    @Override
+    @Override // give the acceleration value to the car by giving the state of the game to the neural network
     public double getAcceleration(SensorModel sensors) {
-        //double[] sensorArray = new double[4];
-        double output = neuralNetwork.getOutput(sensors,"acceleration");
+        double output = neuralNetwork.getOutput(sensors, "acceleration");
         return output;
     }
 
-    @Override
+    @Override // give the steering value to the car by giving the state of the game to the neural network
     public double getSteering(SensorModel sensors) {
-        Double output = neuralNetwork.getOutput(sensors,"steering");
+        Double output = neuralNetwork.getOutput(sensors, "steering");
         return output;
     }
 
@@ -71,32 +71,46 @@ public class DefaultDriver extends AbstractDriver {
         return defaultControl(action, sensors);
     }
 
-    @Override
+    @Override // controls the car in game
     public Action defaultControl(Action action, SensorModel sensors) {
         if (action == null) {
             action = new Action();
         }
-        //action.steering=DriversUtils.alignToTrackAxis(sensors,0.5);
-        action.accelerate=(getAcceleration(sensors));
+        //set actions to take in game by sending the current state to the neural network.
+        action.accelerate = (getAcceleration(sensors));
+        action.steering = getSteering(sensors);
+        action.brake = neuralNetwork.getOutput(sensors, "brake");
 
-            action.steering=getSteering(sensors);
+        //get trackedge sensors
+        double[] track = sensors.getTrackEdgeSensors();
 
-            action.brake=neuralNetwork.getOutput(sensors,"brake");
 
+        if (sensors.getSpeed() >= 120) { // once the car achieves 120km/h the bot needs to control the distance between the itself and the trackedge
+            /*track 9 track edge of the front of the car
+             * track 10 trackedge of the upperright position of the car
+             * track 8 trackedge of the upperleft position of the car
+             */
 
-            if(sensors.getSpeed()>=120.0){
-                action.accelerate=0.1;
+            if (track[9] < 60) {    // if the distance of the trackedge in front of the car is less than 60m: full brake
+                action.brake = 1;
+                if (track[9] < 30) { // if the distance of the trackedge in front of the cat is less than 30m: stop accelerating
+                    action.brake=1;
+                    action.accelerate=0;
+                }
             }
+        }
 
+        if (track[9] < 1) { // if the car is outside the track boundries the value of the sensors become -1
+            System.out.println("car off track");
+            tools.calm(action, sensors); // try to calmly get back to the track
+        }
 
-            System.out.println("Time: "+sensors.getTime());
-            System.out.println("--------------" + getDriverName() + "--------------");
-            System.out.println("Steering: " + action.steering);
-            System.out.println("Acceleration: " + action.accelerate);
-            System.out.println("trackPos: "+sensors.getTrackPosition());
-            System.out.println("Brake: " + action.brake);
-            System.out.println("Angle: "+ sensors.getAngleToTrackAxis());
-            System.out.println("-----------------------------------------------");
+        System.out.println("--------------" + getDriverName() + "--------------");
+        System.out.println("Steering: " + action.steering);
+        System.out.println("Acceleration: " + action.accelerate);
+        System.out.println("Brake: " + action.brake);
+        System.out.println("-----------------------------------------------");
+
 
         return action;
     }

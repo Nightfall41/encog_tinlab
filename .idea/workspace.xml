@@ -7,86 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9d9412a-1958-46f3-a99b-43dfe65d4787" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/encog_Neural_2019-59-01__06:59:15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml_ci.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-00-01__09:00:56" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-02-01__11:02:26" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-03-01__06:03:50" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-05-01__08:05:41" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-07-01__10:07:14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-08-01__05:08:07" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-08-01__12:08:42" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-10-01__07:10:20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-11-01__09:11:59" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-12-01__04:12:10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-13-01__11:13:29" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-14-01__06:14:56" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-16-01__08:16:44" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-18-01__10:18:17" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-19-01__05:19:18" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-19-01__12:19:45" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-21-01__07:21:24" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-23-01__04:23:23" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-23-01__09:23:02" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-24-01__11:24:31" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-25-01__03:25:47" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-26-01__06:26:01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-27-01__03:27:04" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-27-01__08:27:47" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-28-01__03:28:12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-29-01__03:29:31" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-29-01__10:29:20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-30-01__03:30:33" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-30-01__05:30:27" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-30-01__12:30:49" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-31-01__03:31:36" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-32-01__03:32:38" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-32-01__07:32:29" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-33-01__03:33:41" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-34-01__02:34:19" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-34-01__04:34:35" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-34-01__09:34:05" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-35-01__11:35:33" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-36-01__03:36:01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-37-01__03:37:04" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-37-01__06:37:05" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-38-01__08:38:50" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-39-01__03:39:08" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-40-01__03:40:11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-40-01__10:40:22" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-41-01__03:41:13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-41-01__05:41:35" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-43-01__03:43:40" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-43-01__07:43:33" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-44-01__03:44:43" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-45-01__03:45:46" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-45-01__04:45:46" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-45-01__09:45:08" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-46-01__03:46:48" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-46-01__11:46:36" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-47-01__03:47:51" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-48-01__03:48:53" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-48-01__06:48:10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-49-01__03:49:56" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-49-01__08:49:53" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-50-01__03:50:59" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-50-29__12:50:01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-51-01__10:51:24" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-52-01__05:52:42" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-54-01__07:54:38" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-56-01__04:56:56" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-56-01__09:56:11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-57-01__11:57:39" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn/encog_Neural_2019-59-01__06:59:15" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/encog_tinlab_jar/encog_tinlab.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/encog_tinlab_jar/encog_tinlab.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/submission_jar/submission.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/submission_jar/submissionOld.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/encog_tinlab/DefaultDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/encog_tinlab/DefaultDriver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/encog_tinlab/DefaultDriverAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/encog_tinlab/DefaultDriverAlgorithm.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/encog_tinlab/NeuralNetwork.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/encog_tinlab/NeuralNetwork.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/memory/DefaultDriver.mem" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/memory/DefaultDriver.mem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/all.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/all.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DefaultDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DefaultDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DefaultDriverAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DefaultDriverAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeuralNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verslag/references.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/verslag/verslag.aux" beforeDir="false" afterPath="$PROJECT_DIR$/verslag/verslag.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verslag/verslag.log" beforeDir="false" afterPath="$PROJECT_DIR$/verslag/verslag.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verslag/verslag.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/verslag/verslag.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verslag/verslag.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/verslag/verslag.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verslag/verslag.tex" beforeDir="false" afterPath="$PROJECT_DIR$/verslag/verslag.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verslag/verslag.toc" beforeDir="false" afterPath="$PROJECT_DIR$/verslag/verslag.toc" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,28 +33,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DefaultDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="692">
-              <caret line="87" column="38" selection-start-line="87" selection-start-column="38" selection-end-line="87" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NeuralNetwork.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="38" column="90" selection-start-line="38" selection-start-column="90" selection-end-line="38" selection-end-column="90" />
+            <state relative-caret-position="74">
+              <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,8 +67,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DefaultDriverAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+            <state relative-caret-position="870">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/NeuralNetwork.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,12 +94,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="UML Sequence" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>speed</find>
+      <find>store</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,9 +115,12 @@
         <option value="$PROJECT_DIR$/resources/corner.csv" />
         <option value="$PROJECT_DIR$/nn/encog" />
         <option value="$PROJECT_DIR$/nn/encog_Neural_2019-51-01__10:51:24" />
+        <option value="$PROJECT_DIR$/src/timer.java" />
+        <option value="$PROJECT_DIR$/src/Timer.java" />
+        <option value="$PROJECT_DIR$/uml_ci.puml" />
         <option value="$PROJECT_DIR$/src/DefaultDriverAlgorithm.java" />
-        <option value="$PROJECT_DIR$/src/NeuralNetwork.java" />
         <option value="$PROJECT_DIR$/src/DefaultDriver.java" />
+        <option value="$PROJECT_DIR$/src/NeuralNetwork.java" />
       </list>
     </option>
   </component>
@@ -192,11 +149,6 @@
             <path>
               <item name="Torcs_CI-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="Torcs_CI-master" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Torcs_CI-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Torcs_CI-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -212,15 +164,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -287,17 +241,25 @@
       <workItem from="1562009871972" duration="609000" />
       <workItem from="1562011507199" duration="178000" />
       <workItem from="1562018945991" duration="7877000" />
+      <workItem from="1562073628494" duration="98000" />
+      <workItem from="1562073746906" duration="239000" />
+      <workItem from="1562074007286" duration="2912000" />
+      <workItem from="1562092786748" duration="1996000" />
+      <workItem from="1562095919951" duration="2208000" />
+      <workItem from="1562159512228" duration="334000" />
+      <workItem from="1562159886055" duration="40000" />
+      <workItem from="1562161616045" duration="2240000" />
+      <workItem from="1562183348083" duration="3770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47325000" />
+    <option name="totallyTimeSpent" value="61162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="38" width="2736" height="1786" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23960695" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.281935" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -318,15 +280,16 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32911393" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="PlantUML" order="0" weight="0.32993197" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Maven" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32993197" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,54 +308,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/cicontest.jar!/cicontest/algorithm/abstracts/AbstractRace.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="156" column="12" selection-start-line="156" selection-end-line="157" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/cicontest.jar!/cicontest/torcs/race/Race.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/out/artifacts/submission_jar/submission.jar!/NeuralNetwork.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/out/artifacts/submission_jar/submission.jar!/DefaultDriverGenome.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/out/artifacts/submission_jar/submission.jar!/DefaultDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1917">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/memory/mydriver.mem" />
-    <entry file="file://$PROJECT_DIR$/nn/encog_Neural_2019-40-23 08:40:56" />
     <entry file="jar://$PROJECT_DIR$/lib/cicontest.jar!/cicontest/torcs/controller/extras/AutomatedRecovering.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/cicontest.jar!/cicontest/algorithm/abstracts/DriversUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="198" column="5" lean-forward="true" selection-start-line="198" selection-start-column="5" selection-end-line="198" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -612,20 +531,94 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DefaultDriverAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="uml://MODULES/mdl-encog_tinlab">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-encog_tinlab</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-encog_tinlab</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="169.0" y="22.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NeuralNetwork.java">
+    <entry file="file://$PROJECT_DIR$/Uml.uml" />
+    <entry file="file://$PROJECT_DIR$/src/uml.uml" />
+    <entry file="jar://$PROJECT_DIR$/out/artifacts/submission_jar/submissionOld.jar!/NeuralNetwork.class" />
+    <entry file="file://$PROJECT_DIR$/uml.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">NeuralNetwork</node>
+            <node x="" y="">DefaultRace</node>
+            <node x="" y="">DefaultDriverAlgorithm</node>
+            <node x="" y="">DefaultDriverGenome</node>
+            <node x="" y="">DefaultDriver</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="682.0" y="1584.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Timer.java" />
+    <entry file="jar://$PROJECT_DIR$/lib/cicontest.jar!/scr/SimpleDriver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="38" column="90" selection-start-line="38" selection-start-column="90" selection-end-line="38" selection-end-column="90" />
+        <state relative-caret-position="180">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///tmp/modules.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement />
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uml_ci.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/cicontest.jar!/cicontest/algorithm/abstracts/DriversUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5700">
+          <caret line="199" selection-start-line="199" selection-end-line="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DefaultDriverAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -634,8 +627,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DefaultDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="87" column="38" selection-start-line="87" selection-start-column="38" selection-end-line="87" selection-end-column="38" />
+        <state relative-caret-position="74">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NeuralNetwork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

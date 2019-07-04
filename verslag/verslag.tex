@@ -11,12 +11,12 @@
         \vskip2cm
       }
       {\bfseries\Large
-        S. T. Udent\\
+        Kaan Sargit, Raber Ahmad\\
       }
       {
         \bfseries\normalsize
-        176-671\\
-        \vskip1cm
+        0936208,0921954\\
+        \vskip1cmhttps://www.overleaf.com/project/5d1bba397f9fa52d9f90a104
         \today\\
     }    
     \vfill
@@ -27,68 +27,68 @@
 \newpage
 \tableofcontents
 
+\section{Document beheer}
+-- versie 0.1 start document ( layout,Opdrachtomschijving,project opzet,uitvoeiring hoofd en deelvragen.)
+--versie 0.2  
+
 \newpage
 \section{Inleiding}
-Zie hier een referentie naar Royce~\cite{royce1987managing} en nog een naar Clarke~\cite{modelchecking}\ldots 
-\section{Requirements}
 
-\subsection{Requirements}
 
-\subsection{specificaties}
 
-\section{Modellen}
 
-\subsection{De Kripke structuur}
+\section{Opdrachtomschijving}
+Voor de TINLAB Machine Learning moet er een bot gemaakt worden die het spel TORCS zal bedienen. Deze bot moet instaat zijn het spel autonoom te spelen. Een voorwaarde die de bot heeft is dat het door middel van een machine learning techniek gaat "leren" hoe die het spel moet spelen. Om dit te bereiken wordt er tijdens de TINLAB informatie gegeven wat deze technieken zijn en hoe je het kan implementeren. Aan het eind van het project zal er een product zijn die autonoom het spel kan spelen.  
+\newline \newline
+Bij dit wordt de volgende hoofdvraag gesteld : \newline 
+\textbf{Hoe kan met behulp van machine learning het spel TORCS autonoom gespeeld worden.} \newline
+En de volgende deelvragen:
+\begin{itemize}
+\item Is het mogelijk om TORCS uit te lezen met realtime data?
+\item Welke leer techniek gaat er geïmplementeerd worden?
+\item Welke framework zal er gebruik worden gemaakt?
+\end{itemize}
 
-\subsection{Soorten modellen}
 
-\subsection{Tijd}
+\section{Projectopzet}
+\subsection{Software configuratie management}
+Voor het Software configuratie management is er gekozen voor Git. Dankzij Git kan er teruggevallen worden naar een oudere versie. Een gitlog zal worden geplaatst in de bijlage. 
+\subsection{Systeemarchitectuur}
+--maak arch
+\subsection{Planning}
+--gooi planning
 
-\subsection{Guards en invarianten}
 
-\subsection{Deadlock}
+\section{Uitvoering}
 
-\subsection{Zeno gedrag}
+\subsection{Is het mogelijk om TORCS uit te lezen met realtime data?}
+\paragraph{Torcs Compition server}
+Het spel TORCS is een open source race simulator oorspronkelijk gemaakt voor Linux. Het spel heeft niet de functionaliteit om te communiceren met de buitenwereld. Gelukkig bestaat de Torcs Compition server. Dit is een aangepaste versie van het originele spel wat de mens buiten beschouwing houdt. Dankzij deze aangepaste versie is het mogelijk om met het spel te communiceren en data af te lezen. 
+\newline
+\newline
 
-\section{Logica}
+De communicatie verloopt via een string formaat. de volgende gegevens kunnen worden aangeroepen als informatie. 
+-- gooi info van sensors.getMessage()
 
-\subsection{Propositielogica}
+\subsection{Welke leer techniek gaat er geïmplementeerd worden?}
+\paragraph{Manier van leren}
+\paragraph{Activatie functies}
+\subsection{Welke framework zal er gebruik worden gemaakt?}
 
-\subsection{Predicatenlogica}
 
-\subsection{Kwantoren}
 
-\subsection{Dualiteiten}
+\section{Conclusie}
 
-\section{Computation tree logic}
-
-\subsection{De computation tree}
-
-\subsection{Operator: AG}
-
-\subsection{Operator: EG}
-
-\subsection{Operator: AF}
-
-\subsection{Operator: EF}
-
-\subsection{Operator: AX}
-
-\subsection{Operator: EX}
-
-\subsection{Operator: p U q}
-
-\subsection{Operator: p R q}
-
-\subsection{Fairness}
-
-\subsection{Liveness}
-
+\section{Aanbevelingen}
+\section{Bijlagen}
 \newpage
 
 \newpage
-\bibliography{references}
-\bibliographystyle{plain}
+
+\bibliographystyle{apacite}
+
+\bibliography{referencces}
+
 \end{document}
 
 

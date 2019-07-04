@@ -30,8 +30,6 @@ public class DefaultDriverAlgorithm extends AbstractAlgorithm {
             //for speedup set withGUI to false
             results = race.runRace(drivers, true);
 
-            // Save genome/nn
-            DriversUtils.storeGenome(drivers[0]);
         }
         // create a checkpoint this allows you to continue this run later
         DriversUtils.createCheckpoint(this);
@@ -40,7 +38,8 @@ public class DefaultDriverAlgorithm extends AbstractAlgorithm {
 
     public static void main(String[] args) {
 
-        NeuralNetwork net = new NeuralNetwork(false);
+        //depreciated... once used to train the network
+        //NeuralNetwork net = new NeuralNetwork(train);
 
         //Set path to torcs.properties
         TorcsConfiguration.getInstance().initialize(new File("torcs.properties"));

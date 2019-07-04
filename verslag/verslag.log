@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.6.26)  1 JUL 2019 17:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.7.3)  3 JUL 2019 15:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -64,8 +64,7 @@ File: babel.def 2019/04/03 3.29 Babel common definitions
 \bbl@dirlevel=\count89
 )
 Package babel Info: Making " an active character on input line 132.
-))
-No file verslag.aux.
+)) (./verslag.aux)
 \openout1 = `verslag.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -80,6 +79,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
+
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count90
@@ -151,47 +151,72 @@ Package pdftex.def Info: logohr.png  used on input line 23.
 (pdftex.def)             Requested size: 113.81102pt x 113.81244pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logohr.png>]
-No file verslag.toc.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logohr.png>] (./verslag.
+toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 6.
+)
 \tf@toc=\write3
 \openout3 = `verslag.toc'.
 
-[1]
+ [1]
+Underfull \hbox (badness 10000) in paragraph at lines 41--46
 
-LaTeX Warning: Citation `royce1987managing' on page 2 undefined on input line 3
-2.
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 47.
+
+LaTeX Font Info:    No file OMScmss.fd. on input line 47.
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 47.
 
 
-LaTeX Warning: Citation `modelchecking' on page 2 undefined on input line 32.
-
-[2]
-Overfull \vbox (30.22202pt too high) has occurred while \output is active []
+LaTeX Warning: Citation `loiacono2013simulated' on page 2 undefined on input li
+ne 66.
 
 
-[3]
-No file verslag.bbl.
-(./verslag.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+
+ []
+
+[2] [3] (./verslag.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) [4] (./verslag.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 1994 strings out of 492623
- 27546 string characters out of 6135669
- 100962 words of memory out of 5000000
- 5905 multiletter control sequences out of 15000+600000
+ 2014 strings out of 492623
+ 27780 string characters out of 6135670
+ 101962 words of memory out of 5000000
+ 5917 multiletter control sequences out of 15000+600000
  6345 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,4n,25p,274b,144s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,4n,25p,528b,157s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mssbx10.pfb>
-Output written on verslag.pdf (4 pages, 66566 bytes).
+mssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on verslag.pdf (5 pages, 86964 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 47 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
