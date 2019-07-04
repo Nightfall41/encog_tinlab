@@ -3,7 +3,7 @@
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/cicontest.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/TORCSLauncher.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../Downloads/encog-core-3.4.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/encog-core-3.4.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

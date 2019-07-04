@@ -47,7 +47,7 @@ public class NeuralNetwork implements Serializable {
      * */
     public NeuralNetwork(boolean train) { //
         if (!train) { //
-            loadFromFileNetwork = (BasicNetwork) loadObject(new File(getLastSavedNetwork()));
+            loadFromFileNetwork = (BasicNetwork) loadObject(new File("resources/nn/thegoodone"));
         } else if (train) {
             loadFromFileNetwork = (BasicNetwork) loadObject(new File(getLastSavedNetwork()));
             train();

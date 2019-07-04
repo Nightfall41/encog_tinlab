@@ -5,38 +5,14 @@ import race.TorcsConfiguration;
 
 import java.io.File;
 
-public class DefaultDriverAlgorithm extends AbstractAlgorithm {
+public class    DefaultDriverAlgorithm extends AbstractAlgorithm {
 
     private static final long serialVersionUID = 654963126362653L;
 
     DefaultDriverGenome[] drivers = new DefaultDriverGenome[1];
     int[] results = new int[1];
 
-    public Class<? extends Driver> getDriverClass() {
-        return DefaultDriver.class;
-    }
-
-    public void run(boolean continue_from_checkpoint) {
-        if (!continue_from_checkpoint) {
-            //init NN
-            DefaultDriverGenome genome = new DefaultDriverGenome();
-            drivers[0] = genome;
-
-            //Start a race
-            DefaultRace race = new DefaultRace();
-            race.setTrack("aalborg", "road");
-            race.laps = 1;
-
-            //for speedup set withGUI to false
-            results = race.runRace(drivers, true);
-
-        }
-        // create a checkpoint this allows you to continue this run later
-        DriversUtils.createCheckpoint(this);
-            DriversUtils.clearCheckpoint();
-    }
-
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         //depreciated... once used to train the network
         //NeuralNetwork net = new NeuralNetwork(train);
@@ -69,6 +45,27 @@ public class DefaultDriverAlgorithm extends AbstractAlgorithm {
         } else {
             algorithm.run();
         }
+    }
+
+    public Class<? extends Driver> getDriverClass() {
+        return DefaultDriver.class;
+    }
+
+    public void run(boolean continue_from_checkpoint) {
+        if (!continue_from_checkpoint) {
+            //init NN
+            DefaultDriverGenome genome = new DefaultDriverGenome();
+            drivers[0] = genome;
+
+            //Start a race
+            DefaultRace race = new DefaultRace();
+            //for speedup set withGUI to false
+            results = race.runRace(drivers, true);
+
+        }
+        // create a checkpoint this allows you to continue this run later
+        DriversUtils.createCheckpoint(this);
+            DriversUtils.clearCheckpoint();
     }
 
 }
