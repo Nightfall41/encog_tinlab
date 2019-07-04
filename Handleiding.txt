@@ -1,0 +1,10 @@
+Handleiding Baudet racing team
+
+
+
+Jar file bevindt zich in: 
+out/artifacts/encog_tinlab_jar/
+
+zorg ervoor dat de working directory in die map is.
+
+de commando java -jar encog_tinlab.jar start de controller
