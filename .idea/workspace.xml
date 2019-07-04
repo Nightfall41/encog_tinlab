@@ -7,24 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9d9412a-1958-46f3-a99b-43dfe65d4787" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/uml_ci.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/encog_tinlab_jar/encog_tinlab.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/encog_tinlab_jar/encog_tinlab.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/submission_jar/submission.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/submission_jar/submissionOld.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/encog_tinlab/DefaultDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/encog_tinlab/DefaultDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/encog_tinlab/DefaultDriverAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/encog_tinlab/DefaultDriverAlgorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/encog_tinlab/NeuralNetwork.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/encog_tinlab/NeuralNetwork.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DefaultDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DefaultDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DefaultDriverAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DefaultDriverAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeuralNetwork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verslag/references.bib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/verslag/verslag.aux" beforeDir="false" afterPath="$PROJECT_DIR$/verslag/verslag.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verslag/verslag.log" beforeDir="false" afterPath="$PROJECT_DIR$/verslag/verslag.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verslag/verslag.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/verslag/verslag.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verslag/verslag.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/verslag/verslag.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verslag/verslag.tex" beforeDir="false" afterPath="$PROJECT_DIR$/verslag/verslag.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verslag/verslag.toc" beforeDir="false" afterPath="$PROJECT_DIR$/verslag/verslag.toc" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DefaultDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+            <state relative-caret-position="1182">
+              <caret line="122" lean-forward="true" selection-start-line="73" selection-start-column="4" selection-end-line="122" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DefaultDriverAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
+            <state relative-caret-position="720">
               <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -76,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NeuralNetwork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+            <state relative-caret-position="72">
+              <caret line="102" column="32" lean-forward="true" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,8 +102,8 @@
         <option value="$PROJECT_DIR$/src/Timer.java" />
         <option value="$PROJECT_DIR$/uml_ci.puml" />
         <option value="$PROJECT_DIR$/src/DefaultDriverAlgorithm.java" />
-        <option value="$PROJECT_DIR$/src/DefaultDriver.java" />
         <option value="$PROJECT_DIR$/src/NeuralNetwork.java" />
+        <option value="$PROJECT_DIR$/src/DefaultDriver.java" />
       </list>
     </option>
   </component>
@@ -159,8 +142,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,16 +233,17 @@
       <workItem from="1562159886055" duration="40000" />
       <workItem from="1562161616045" duration="2240000" />
       <workItem from="1562183348083" duration="3770000" />
+      <workItem from="1562205429734" duration="3651000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61162000" />
+    <option name="totallyTimeSpent" value="64813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="38" width="2736" height="1786" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.281935" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28647014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -586,21 +570,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///tmp/modules.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MODULES</ID>
-          <OriginalElement />
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///tmp/modules.uml" />
     <entry file="file://$PROJECT_DIR$/uml_ci.puml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -617,18 +587,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DefaultDriverAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
+        <state relative-caret-position="720">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DefaultDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -637,8 +597,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NeuralNetwork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        <state relative-caret-position="72">
+          <caret line="102" column="32" lean-forward="true" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DefaultDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1182">
+          <caret line="122" lean-forward="true" selection-start-line="73" selection-start-column="4" selection-end-line="122" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
