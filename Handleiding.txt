@@ -6,5 +6,5 @@ Jar file bevindt zich in:
 out/artifacts/encog_tinlab_jar/
 
 zorg ervoor dat de working directory in die map is.
-
+ZORG ERVOOR DAT DE JRE OP JAVA 8 STAAT.
 de commando java -jar encog_tinlab.jar start de controller
